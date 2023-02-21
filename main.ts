@@ -16,7 +16,7 @@ import { Md5 as MD5 } from 'ts-md5';
 
 function colorfulStyle(text: string): { [x in string]: string } {
 	const sum = MD5.hashStr(text, true).reduce((a, b) => a + b, 0)
-	const deg = sum % 3600 / 10
+	const deg = Math.abs(sum) % 900 / 10 * 4
 	return { filter: `hue-rotate(${deg}deg)` }
 }
 

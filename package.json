@@ -1,6 +1,6 @@
 {
 	"name": "obsidian-colorful-highlight-plugin",
-	"version": "1.0.0",
+	"version": "0.1.0",
 	"description": "Auto colorful highlight block plugin for Obsidian",
 	"license": "MIT",
 	"main": "main.js",
